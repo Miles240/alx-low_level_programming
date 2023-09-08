@@ -7,8 +7,7 @@
 */
 
 int main(void)
-{
-	
+{	
 	int n;
 	int i;
 	int j;	
@@ -18,7 +17,7 @@ int main(void)
 		{
 			for (j = 50; j <= 57; j++)
 			{
-				if (i > n && j > i){
+				if (i > n && j > i) {
 					putchar(n);
 					putchar(i);
 					putchar(j);
@@ -30,5 +29,5 @@ int main(void)
 			}
 		}
 	}
-	return 0;
+	return (0);
 }
