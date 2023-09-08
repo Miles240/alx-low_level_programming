@@ -13,11 +13,11 @@ int main(void)
 	int i;
 	int j;
 
-	for (n = 48; n <= 55; n++)
+	for (n = 48; n <= 57; n++)
 	{
-		for (i = 49; i <= 56; i++)
+		for (i = 48; i <= 57; i++)
 		{
-			for (j = 50; j <= 57; j++)
+			for (j = 48; j <= 57; j++)
 			{
 				if (i > n && j > i)
 				{
