@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
-*print_alphabet - prints the complete characters
-*
-*Return: Always 0.
-*/
+ *print_alphabet_x10 -is a function that Prints the complete characters
+ *
+ *Return: Always 0.
+ */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 
 	int i, n;
@@ -16,7 +16,7 @@ void print_alphabet(void)
 	{
 		for (n = 97; n <= 122; n++)
 		{
-			_putchar (n);
+			_putchar(n);
 		}
 		_putchar('\n');
 	}
