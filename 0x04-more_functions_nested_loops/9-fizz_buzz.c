@@ -13,22 +13,27 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
+
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("Fizz Buzz ");
+			printf("FizzBuzz");
+			putchar(' ');
 			continue;
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
+			putchar(' ');
 			continue;
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
+			putchar(' ');
 			continue;
 		}
-		printf("%d ", i);
+		printf("%d", i);
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
