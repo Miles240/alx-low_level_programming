@@ -1,0 +1,1 @@
+C is such a Barbie😉😎🧘‍♀️
