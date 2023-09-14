@@ -20,12 +20,12 @@ void print_square(int size)
 	{
 		for (n = 1; n <= size; n++)
 		{
-			_putchar('\n');
-			for (i = 0; i <= size; i++)
+
+			for (i = 1; i <= size; i++)
 			{
 				_putchar('#');
 			}
+			_putchar('\n');
 		}
 	}
-	_putchar('\n');
 }
