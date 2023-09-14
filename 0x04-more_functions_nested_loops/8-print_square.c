@@ -20,7 +20,6 @@ void print_square(int size)
 	{
 		for (n = 1; n <= size; n++)
 		{
-
 			for (i = 1; i <= size; i++)
 			{
 				_putchar('#');
