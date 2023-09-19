@@ -4,7 +4,6 @@
  * @str: string that will be inputed
  */
 
-
 void puts2(char *str)
 {
 	int n = 0;
@@ -13,9 +12,9 @@ void puts2(char *str)
 	{
 		if (n % 2 == 0)
 		{
-		_putchar(str[n]);
+			_putchar(str[n]);
 		}
-	n++;
+		n++;
 	}
 	_putchar('\n');
 }
