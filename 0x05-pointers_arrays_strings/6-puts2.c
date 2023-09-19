@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * puts2 - prints the character
- * @str: string that will be inputed
- */
+* puts2 - prints the character
+* @str: string that will be inputed
+*/
 
 void puts2(char *str)
 {

@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *_puts - this function will print the string
- *@str: pointer to the sring
- *Return: string followed by a new line
- */
+*_puts - this function will print the string
+*@str: pointer to the sring
+*Return: string followed by a new line
+*/
 
 void _puts(char *str)
 {

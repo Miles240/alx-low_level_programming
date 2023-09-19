@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * print_array - prints n  elements of an array of integers, then a new line.
- * @a: this is the input array
- * @n: this is the length of the array
- */
+* print_array - prints n  elements of an array of integers, then a new line.
+* @a: this is the input array
+* @n: this is the length of the array
+*/
 
 void print_array(int *a, int n)
 {

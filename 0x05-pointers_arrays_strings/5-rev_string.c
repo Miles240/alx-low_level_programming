@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * rev_string - function that prints a string in reverse
- * @s: pointer pointing to the string
- * Return: 0
- */
+* rev_string - function that prints a string in reverse
+* @s: pointer pointing to the string
+* Return: 0
+*/
 
 void rev_string(char *s)
 {
