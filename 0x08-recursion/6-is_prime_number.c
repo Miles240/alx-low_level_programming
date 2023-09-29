@@ -29,4 +29,5 @@ int is_prime_number(int n)
 		return (1);
 		return (check(2, n));
 	}
+	return;
 }
