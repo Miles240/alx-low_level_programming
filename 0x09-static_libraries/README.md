@@ -1,0 +1,1 @@
+hello, welcome to my first ever C static library😊
