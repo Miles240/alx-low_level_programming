@@ -2,7 +2,10 @@
 #include <stdlib.h>
 
 /**
+ * _strdup - copies and returns a pointer to a string
+ * @str: string to be copied
  *
+ * Return: newStr
  */
 
 char *_strdup(char *str)
@@ -16,9 +19,10 @@ char *_strdup(char *str)
 	}
 
 	for (len = 0; str[len] != '\0'; len++)
-	{}
+	{
+	}
 
-		newStr = malloc((len +1) * sizeof(char));
+	newStr = malloc((len + 1) * sizeof(char));
 
 	if (newStr == NULL)
 	{
