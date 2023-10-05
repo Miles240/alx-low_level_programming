@@ -16,20 +16,19 @@ char *str_concat(char *s1, char *s2)
 	int len1 = 0, len2 = 0, tLen, i, n;
 	char *newStr;
 
-	if (s1 == NULL)
+	if (s1 != NULL)
 	{
-		return (s1);
-	}else if (s2 == NULL)
-	{
-		return (s2);
-	}
-	for (len1 = 0; s1[len1] != '\0'; len1++)
-	{
-	}
-	for (len2 = 0; s2[len2] != '\0'; len2++)
-	{
+		for (len1 = 0; s1[len1] != '\0'; len1++)
+		{
+		}
 	}
 
+	if (s2 != NULL)
+	{
+		for (len2 = 0; s2[len2] != '\0'; len2++)
+		{
+		}
+	}
 	tLen = len1 + len2;
 
 	newStr = (char *)malloc((tLen + 1) * sizeof(char));
