@@ -1,7 +1,8 @@
 #include "dog.h"
 
 /**
- *
+ * print_dog - prints a struct type of dog
+ * @d: parameter
  */
 
 void print_dog(struct dog *d)
