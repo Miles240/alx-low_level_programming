@@ -3,6 +3,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * struct dog - struct
+ * @name: parameter
+ * @age: parameter
+ * @owner: parameter
+*/
+
 struct dog
 {
 	char *name;
