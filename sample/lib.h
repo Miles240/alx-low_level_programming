@@ -5,6 +5,7 @@
 #include <stdarg.h>
 #include <string.h>
 
-typedef char *string;
+typedef char *str;
+typedef double dub;
 
 #endif
