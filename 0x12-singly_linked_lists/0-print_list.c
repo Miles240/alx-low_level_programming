@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_len - checks for holberton students
+ * print_list - checks for holberton students
  * @h : name
  * Return: the total number of nodes
  */

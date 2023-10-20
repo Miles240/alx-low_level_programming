@@ -2,7 +2,7 @@
 
 /**
  * _strlen -  adds a new node at the beginning of a list_t list
- * @scape goat
+ * @s: starting point/ head
  * Return: a pointer to the node
  */
 
